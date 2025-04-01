@@ -69,7 +69,7 @@ sg_uat = {
 keypairs = {
   "mj" = {
     name       = "mj"
-    public_key = "sh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB6qVRgiSXvPZ0P93eHTfDfF2+KHzB/5NoaQLDjSIL23 mjohnson@mws"
+    public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB6qVRgiSXvPZ0P93eHTfDfF2+KHzB/5NoaQLDjSIL23 mjohnson@mws"
   }
 
 }
