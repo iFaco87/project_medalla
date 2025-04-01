@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"sg_uat","Source":"registry.terraform.io/cloudposse/security-group/aws","Version":"2.2.0","Dir":".terraform/modules/sg_uat"},{"Key":"sg_uat.this","Source":"registry.terraform.io/cloudposse/label/null","Version":"0.25.0","Dir":".terraform/modules/sg_uat.this"}]}
