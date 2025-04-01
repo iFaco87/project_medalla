@@ -1,7 +1,7 @@
 locals {
   security_group_id = module.sg_uat.id
-  public_subnet_ids        = module.network.public_subnets_ids
-    instances = {
+  public_subnet_ids = module.network.public_subnets_ids
+  instances = {
     "uat" = {
       key_name                    = "mj"
       instance_type               = "t3.2xlarge"
