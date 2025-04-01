@@ -5,6 +5,6 @@ module "sg_uat" {
   attributes       = var.sg_uat.attributes
   allow_all_egress = var.sg_uat.allow_all_egress
   vpc_id           = module.network.vpc_id
-  rules            = var.sg_uatn.rules
+  rules            = var.sg_uat.rules
 }
 
