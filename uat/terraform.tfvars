@@ -54,10 +54,20 @@ sg_uat = {
       description = "Allow SSH from anywhere"
     },
     {
+      key         = "api"
+      type        = "egress"
+      from_port   = 3000
+      to_port     = 3000
+      protocol    = "tcp"
+      cidr_blocks = ["0.0.0.0/0"]
+      self        = null
+      description = "API"
+    },
+    {
       key         = "https"
       type        = "egress"
-      from_port   = 443
-      to_port     = 443
+      from_port   = 8080
+      to_port     = 8080
       protocol    = "tcp"
       cidr_blocks = ["0.0.0.0/0"]
       self        = null
