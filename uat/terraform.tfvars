@@ -55,7 +55,7 @@ sg_uat = {
     },
     {
       key         = "api"
-      type        = "egress"
+      type        = "ingress"
       from_port   = 3000
       to_port     = 3000
       protocol    = "tcp"
@@ -65,7 +65,7 @@ sg_uat = {
     },
     {
       key         = "https"
-      type        = "egress"
+      type        = "ingress"
       from_port   = 8080
       to_port     = 8080
       protocol    = "tcp"
