@@ -5,6 +5,7 @@ module "ec2" {
 }
 
 resource "aws_eip" "uat-elp" {
+  instance = module.ec2.ec2_id["uat"]
   domain = "vpc"
 }
 
